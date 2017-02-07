@@ -7,7 +7,7 @@ defmodule Rumbl.Mixfile do
      build_path: "../../_build",
      config_path: "../../config/config.exs",
      deps_path: "../../deps",
-     lockfile: "../../mix.lock"
+     lockfile: "../../mix.lock",
      elixir: "~> 1.2",
      elixirc_paths: elixirc_paths(Mix.env),
      compilers: [:phoenix, :gettext] ++ Mix.compilers,
@@ -43,8 +43,7 @@ defmodule Rumbl.Mixfile do
      {:gettext, "~> 0.11"},
      {:cowboy, "~> 1.0"},
      {:comeonin, "~> 2.0"},
-     {:info_sys, in_umbrella: true}
-    ]
+     {:info_sys, in_umbrella: true}]
   end
 
   # Aliases are shortcuts or tasks specific to the current project.
